@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV Online</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background-color: #f4f4f4;
+      }
+
+      .cv-container {
+        background-color: #ffffff;
+        border: 2px solid #dddddd;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        max-width: 800px;
+        width: 100%;
+        text-align: center;
+      }
+
+      table {
+        font-family: Arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+        max-width: 600px;
+        margin: 20px auto;
+      }
+
+      td,
+      th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+      }
+
+      tr:nth-child(even) {
+        background-color: #dddddd;
+      }
+
+      img {
+        width: 128px;
+        height: 128px;
+        border-radius: 50%;
+        margin-bottom: 20px;
+      }
+
+      h4 {
+        margin: 10px 0;
+      }
+
+      .biodata {
+        text-align: left;
+        max-width: 600px;
+        margin: 0 auto;
+      }
+
+      .biodata li {
+        list-style: none;
+        padding: 5px 0;
+      }
+
+      hr {
+        border: none;
+        border-top: 1px solid #dddddd;
+        margin: 20px 0;
+      }
+
+      /* Justify Karakter Pribadi section */
+      .karakter {
+        text-align: justify;
+        max-width: 600px;
+        margin: 0 auto;
+      }
+
+      @media (max-width: 768px) {
+        body {
+          padding: 10px;
+        }
+
+        .cv-container {
+          padding: 10px;
+        }
+
+        table {
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="cv-container">
+      <!-- Judul CV Online -->
+      <h1>Curriculum Vitae</h1>
+
+      <!-- Foto Profil -->
+      <img src="Rendy_Foto.jpeg" alt="Rendy" />
+      <hr />
+
+      <!-- Biodata Diri -->
+      <h4>BIODATA DIRI</h4>
+      <ul class="biodata">
+        <li><strong>Nama:</strong> Rendy Radithya Supandi</li>
+        <li><strong>Umur:</strong> 21 Tahun</li>
+        <li><strong>Jenis Kelamin:</strong> Laki-Laki</li>
+        <li><strong>Tempat, Tanggal Lahir:</strong> Jakarta, 15 Oktober 2002</li>
+        <li><strong>Alamat:</strong> Jl. Bangka II Gg V No. 3A, Pelamampang, Mampang Prapatan</li>
+        <li><strong>Email:</strong> <a href="https://mail.google.com/mail/?view=cm&fs=1&to=rendyradith@gmail.com" target="_blank">rendyradith@gmail.com</a></li>
+        <li><strong>Status:</strong> Mahasiswa</li>
+      </ul>
+      <hr />
+
+      <!-- Riwayat Pendidikan -->
+      <h4>RIWAYAT PENDIDIKAN</h4>
+      <table>
+        <tr>
+          <th>Nama Sekolah</th>
+          <th>Tahun</th>
+        </tr>
+        <tr>
+          <td>SDN Pelamampang 01 Pagi</td>
+          <td>2009 - 2015</td>
+        </tr>
+        <tr>
+          <td>SMPN 141 Jakarta</td>
+          <td>2015 - 2018</td>
+        </tr>
+        <tr>
+          <td>SMAN 6 Jakarta</td>
+          <td>2018 - 2021</td>
+        </tr>
+      </table>
+      <hr />
+
+      <!-- Karakter Pribadi -->
+      <h4>KARAKTER PRIBADI</h4>
+      <p class="karakter">
+        Halo Semua! Saat ini saya sedang kuliah di Telkom University Jakarta Prodi Sistem Informasi. Saya adalah pribadi yang antusias dan bersemangat dalam mengeksplorasi teknologi baru, selalu berusaha mengikuti perkembangan tren di
+        bidang teknologi dan informasi. Selain itu, saya juga aktif dalam organisasi, yang membantu saya mengembangkan keterampilan kepemimpinan serta komunikasi.
+      </p>
+    </div>
+  </body>
+</html>
